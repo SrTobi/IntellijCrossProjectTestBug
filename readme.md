@@ -1,5 +1,7 @@
 # Intellij CrossProject Test Bug
 
+[Ticket](https://youtrack.jetbrains.com/issue/SCL-13423)
+
 Intellij does not yet support ScalaJS cross projects very well natively.
 However, with `Use sbt shell for build and import` Intellij provides a nice experience even for cross projects with shared files.
 One issue, however, is that Intellij will not find shared tests and abort with the message `Run Configuration Error: No Suite Class is found for Class *** in module ***`.
